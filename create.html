@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Json server</title>
+    <style>
+        * {
+          font-family: Arial, sans-serif;
+          box-sizing: border-box;
+        }
+      
+        body {
+          background-color: rgb(139, 247, 247);
+        }
+      
+        form {
+          max-width: 500px;
+          margin: 0 auto;
+          padding: 20px;
+          background-color: #fff;
+          border-radius: 5px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+          border: solid black;
+        }
+      
+        h1 {
+          text-align: center;
+          color: #333;
+          margin-bottom: 20px;
+        }
+      
+        label {
+          display: block;
+          margin-bottom: 5px;
+          color: #555;
+          font-weight: 700;
+        }
+      
+        input[type="text"],
+        input[type="email"],
+        select,
+        input[type="number"] {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 3px;
+          margin-bottom: 15px;
+          font-size: 16px;
+          color: #555;
+        }
+      
+        select {
+          appearance: none;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23ccc'/%3E%3C/svg%3E");
+          background-size: 12px;
+          background-repeat: no-repeat;
+          background-position: right 10px center;
+          padding-right: 25px;
+        }
+      
+        button {
+          display: block;
+          width: 100%;
+          background-color: #333;
+          color: #fff;
+          padding: 10px;
+          border: none;
+          border-radius: 3px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+      
+        button:hover {
+          background-color: #555;
+        }
+      </style>
+</head>
+<body>
+    <h1>Add Your details Here</h1>
+    <form name="mydetails">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+      
+        <label for="gender" >Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select><br><br>
+      
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+      
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required><br><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+      
+        <label for="profession">Profession:</label>
+        <input type="text" id="profession" name="profession" required><br><br>
+      
+        <button>Create</button>
+    </form>
+    <script src="js/create.js"></script>
+</body>
+</html>

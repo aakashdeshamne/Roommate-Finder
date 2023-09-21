@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    background: rgb(186, 246, 246);
+    font-family: 'Roboto';
+    color: #444;
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav h1{
+    margin: 0;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-shadow: #333;
+}
+nav h1:hover{
+    transform: scale(1.5);
+    text-shadow: 0px 0px 15px rgba(88, 7, 251, 0.981);
+    color:rgb(33, 57, 9)
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    background: #fa0606;
+    margin-top: 6px;
+    font-size: 30PX;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav a:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgba(7, 19, 251, 0.981);
+
+}
+form{
+    max-width: 500px;
+}
+input,textarea{
+    display: block;
+    margin: 16px 0;
+    padding: 6px 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-family: 'Roboto';
+}
+textarea{
+    min-height: 200px;
+}
+.blogs{
+   display: flex;
+   flex-wrap: wrap;
+}
+.post{
+    background:#fff;
+    font-family: 'Roboto';
+    color: #444;
+    flex-basis:20%;
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+.post h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .post p {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .post a {
+    text-align: center;
+    color: #36cca2;
+    font-weight: bold;
+  }
+  .post:hover {
+    transform: scale(1.5);
+    background-color: #f5f5f5;
+    border: 1px solid #36cca2;
+    box-shadow: 0px 0px 15px rgba(88, 7, 251, 0.981);
+  }
+form.search input[type="text"] {
+    padding: 10px;
+    border: 2px solid #b40f0f;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+form.search input[type="text"]:hover{
+    transform: scale(1.4);
+    box-shadow: 0px 0px 15px rgba(88, 7, 251, 0.981);
+
+}
+.roommate-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .roommate-image {
+    width: 40%;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  
+  .roommate-details {
+    width: 60%;
+    margin-left: 200px;
+  }
+  
+  .roommate-details h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  .roommate-details p {
+    font-size: 23px;
+    margin-bottom: 5px;
+  }

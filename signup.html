@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            margin: 200px auto;
+            max-width: 400px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        button {
+            background-color: #0aec11;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #f20e0e;
+        }
+        
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+		<h1>Signup Form</h1>
+		<form>
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password" required>
+
+			<label for="confirm_password">Confirm Password</label>
+			<input type="password" id="confirm_password" name="confirm_password" required>
+
+			<button >Signup</button>
+		</form>
+	</div>
+    <script>
+        const form=document.querySelector('form');
+    const createpost = async (e)=>{
+    e.preventDefault();
+     const doc={
+    email:form.email.value,
+    password:form.password.value,
+   
+     }
+      await fetch('http://localhost:3000/users',{ 
+    method:'POST',
+    body:JSON.stringify(doc),
+    headers:{'Content-Type':'application/json'}
+    });
+ window.location.replace('/index.html')
+   }
+    form.addEventListener('submit',createpost);
+    </script> 
+</body>
+</html>

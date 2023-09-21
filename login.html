@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            margin: 200px auto;
+            max-width: 400px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        input[type="email"],
+        input[type="password"] {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        button[type="submit"] {
+            background-color: #0aed11;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #e10c0c;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+		<h1>Login To RoommateFinder</h1>
+		<form>
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password" required>
+
+			<button type="submit">Login</button>
+		</form>
+	</div>
+    <script>
+        
+        const form = document.querySelector('form');
+
+        form.addEventListener('submit', event => {
+          event.preventDefault(); // Prevent the default form submission
+        
+          const email = document.getElementById('email').value;
+          const password = document.getElementById('password').value;
+        
+          // Make a GET request to the server to get the user data
+          fetch('http://localhost:3000/users')
+            .then(response => response.json())
+            .then(data => {
+              // Check if the user with the given email and password exists
+              const user = data.find(u => u.email === email && u.password === password);
+              if (user) {
+                // Redirect to the homepage or dashboard
+                window.location.href = "index.html";
+              } else {
+                // Show an error message
+                alert('Invalid email or password');
+              }
+            })
+            .catch(error => {
+              console.error('Error fetching user data', error);
+              alert('An error occurred. Please try again later.');
+            });
+        });
+        
+
+    </script>
+</body>
+</html>

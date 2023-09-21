@@ -1,0 +1,476 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "gender": "Male",
+      "age": 25,
+      "location": "New York",
+      "email": "johndoe@gmail.com",
+      "profession": "Software Engineer"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "gender": "Female",
+      "age": 27,
+      "location": "San Francisco",
+      "email": "janesmith@gmail.com",
+      "profession": "Graphic Designer"
+    },
+    {
+      "id": 3,
+      "name": "Alex Johnson",
+      "gender": "Male",
+      "age": 22,
+      "location": "Los Angeles",
+      "email": "alexjohnson@gmail.com",
+      "profession": "Sales Executive"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "gender": "Female",
+      "age": 30,
+      "location": "Seattle",
+      "email": "emilydavis@gmail.com",
+      "profession": "Marketing Manager"
+    },
+    {
+      "id": 5,
+      "name": "Chris Lee",
+      "gender": "Male",
+      "age": 28,
+      "location": "Chicago",
+      "email": "chrislee@gmail.com",
+      "profession": "Product Manager"
+    },
+    {
+      "id": 6,
+      "name": "Sarah Brown",
+      "gender": "Female",
+      "age": 26,
+      "location": "Boston",
+      "email": "sarahbrown@gmail.com",
+      "profession": "Data Analyst"
+    },
+    {
+      "id": 7,
+      "name": "Mark Wilson",
+      "gender": "Male",
+      "age": 23,
+      "location": "Dallas",
+      "email": "markwilson@gmail.com",
+      "profession": "Financial Analyst"
+    },
+    {
+      "id": 8,
+      "name": "Rachel Miller",
+      "gender": "Female",
+      "age": 29,
+      "location": "Miami",
+      "email": "rachelmiller@gmail.com",
+      "profession": "UX Designer"
+    },
+    {
+      "id": 9,
+      "name": "David Taylor",
+      "gender": "Male",
+      "age": 24,
+      "location": "Denver",
+      "email": "davidtaylor@gmail.com",
+      "profession": "Web Developer"
+    },
+    {
+      "id": 10,
+      "name": "Grace Martinez",
+      "gender": "Female",
+      "age": 31,
+      "location": "Austin",
+      "email": "gracemartinez@gmail.com",
+      "profession": "Business Analyst"
+    },
+    {
+      "id": 11,
+      "name": "Luke Hernandez",
+      "gender": "Male",
+      "age": 27,
+      "location": "Houston",
+      "email": "lukehernandez@gmail.com",
+      "profession": "Software Developer"
+    },
+    {
+      "id": 12,
+      "name": "Olivia Adams",
+      "gender": "Female",
+      "age": 23,
+      "location": "Atlanta",
+      "email": "oliviaadams@gmail.com",
+      "profession": "Product Designer"
+    },
+    {
+      "id": 13,
+      "name": "John Smith",
+      "gender": "male",
+      "age": 23,
+      "location": "New York City",
+      "email": "john.smith@gmail.com",
+      "profession": "Software Engineer"
+    },
+    {
+      "id": 14,
+      "name": "Emma Johnson",
+      "gender": "female",
+      "age": 25,
+      "location": "San Francisco",
+      "email": "emma.johnson@gmail.com",
+      "profession": "Product Manager"
+    },
+    {
+      "id": 15,
+      "name": "David Lee",
+      "gender": "male",
+      "age": 28,
+      "location": "Los Angeles",
+      "email": "david.lee@gmail.com",
+      "profession": "Data Scientist"
+    },
+    {
+      "id": 16,
+      "name": "Emily Chen",
+      "gender": "female",
+      "age": 26,
+      "location": "Seattle",
+      "email": "emily.chen@gmail.com",
+      "profession": "Marketing Manager"
+    },
+    {
+      "id": 17,
+      "name": "Andrew Kim",
+      "gender": "male",
+      "age": 24,
+      "location": "Chicago",
+      "email": "andrew.kim@gmail.com",
+      "profession": "Web Developer"
+    },
+    {
+      "id": 18,
+      "name": "Olivia Davis",
+      "gender": "female",
+      "age": 22,
+      "location": "Houston",
+      "email": "olivia.davis@gmail.com",
+      "profession": "Graphic Designer"
+    },
+    {
+      "id": 18,
+      "name": "Michael Johnson",
+      "gender": "male",
+      "age": 29,
+      "location": "Boston",
+      "email": "michael.johnson@gmail.com",
+      "profession": "Sales Manager"
+    },
+    {
+      "id": 19,
+      "name": "Sophia Lee",
+      "gender": "female",
+      "age": 27,
+      "location": "San Diego",
+      "email": "sophia.lee@gmail.com",
+      "profession": "Product Designer"
+    },
+    {
+      "id": 20,
+      "name": "Daniel Brown",
+      "gender": "male",
+      "age": 31,
+      "location": "Austin",
+      "email": "daniel.brown@gmail.com",
+      "profession": "Business Analyst"
+    },
+    {
+      "id": 21,
+      "name": "John Doe",
+      "gender": "Male",
+      "age": 24,
+      "location": "New York",
+      "email": "johndoe@gmail.com",
+      "profession": "Software Developer"
+    },
+    {
+      "id": 22,
+      "name": "Jane Smith",
+      "gender": "Female",
+      "age": 28,
+      "location": "San Francisco",
+      "email": "janesmith@gmail.com",
+      "profession": "Graphic Designer"
+    },
+    {
+      "id": 23,
+      "name": "Michael Brown",
+      "gender": "Male",
+      "age": 29,
+      "location": "Chicago",
+      "email": "michaelbrown@gmail.com",
+      "profession": "Marketing Manager"
+    },
+    {
+      "id": 24,
+      "name": "Sarah Johnson",
+      "gender": "Female",
+      "age": 26,
+      "location": "Los Angeles",
+      "email": "sarahjohnson@gmail.com",
+      "profession": "Journalist"
+    },
+    {
+      "id": 25,
+      "name": "David Lee",
+      "gender": "Male",
+      "age": 25,
+      "location": "Seattle",
+      "email": "davidlee@gmail.com",
+      "profession": "Web Developer"
+    },
+    {
+      "id": 26,
+      "name": "Emily Davis",
+      "gender": "Female",
+      "age": 27,
+      "location": "Boston",
+      "email": "emilydavis@gmail.com",
+      "profession": "Accountant"
+    },
+    {
+      "id": 27,
+      "name": "Adam Wilson",
+      "gender": "Male",
+      "age": 30,
+      "location": "Austin",
+      "email": "adamwilson@gmail.com",
+      "profession": "Sales Manager"
+    },
+    {
+      "id": 28,
+      "name": "Rachel Green",
+      "gender": "Female",
+      "age": 23,
+      "location": "Miami",
+      "email": "rachelgreen@gmail.com",
+      "profession": "Fashion Designer"
+    },
+    {
+      "id": 29,
+      "name": "Andrew Miller",
+      "gender": "Male",
+      "age": 28,
+      "location": "Dallas",
+      "email": "andrewmiller@gmail.com",
+      "profession": "Project Manager"
+    },
+    {
+      "id": 30,
+      "name": "Linda Clark",
+      "gender": "Female",
+      "age": 31,
+      "location": "Denver",
+      "email": "lindaclark@gmail.com",
+      "profession": "HR Manager"
+    },
+    {
+      "id": 31,
+      "name": "Joshua Scott",
+      "gender": "Male",
+      "age": 29,
+      "location": "New York",
+      "email": "joshuascott@gmail.com",
+      "profession": "Financial Analyst"
+    },
+    {
+      "id": 32,
+      "name": "Sophia Garcia",
+      "gender": "Female",
+      "age": 26,
+      "location": "San Francisco",
+      "email": "sophiagarcia@gmail.com",
+      "profession": "Web Designer"
+    },
+    {
+      "id": 33,
+      "name": "Emma Smith",
+      "gender": "female",
+      "age": 22,
+      "location": "New York",
+      "email": "emma.smith@example.com",
+      "profession": "Graphic Designer"
+    },
+    {
+      "id": 34,
+      "name": "Jacob Johnson",
+      "gender": "male",
+      "age": 26,
+      "location": "Los Angeles",
+      "email": "jacob.johnson@example.com",
+      "profession": "Software Engineer"
+    },
+    {
+      "id": 35,
+      "name": "Mia Davis",
+      "gender": "female",
+      "age": 24,
+      "location": "Chicago",
+      "email": "mia.davis@example.com",
+      "profession": "Writer"
+    },
+    {
+      "id": 36,
+      "name": "William Rodriguez",
+      "gender": "male",
+      "age": 28,
+      "location": "Miami",
+      "email": "william.rodriguez@example.com",
+      "profession": "Accountant"
+    },
+    {
+      "id": 38,
+      "name": "Sophia Taylor",
+      "gender": "female",
+      "age": 21,
+      "location": "San Francisco",
+      "email": "sophia.taylor@example.com",
+      "profession": "Marketing Manager"
+    },
+    {
+      "id": 39,
+      "name": "Ethan Anderson",
+      "gender": "male",
+      "age": 27,
+      "location": "Seattle",
+      "email": "ethan.anderson@example.com",
+      "profession": "Product Manager"
+    },
+    {
+      "id": 40,
+      "name": "Olivia Garcia",
+      "gender": "female",
+      "age": 25,
+      "location": "Houston",
+      "email": "olivia.garcia@example.com",
+      "profession": "Sales Representative"
+    },
+    {
+      "id": 41,
+      "name": "Michael Martinez",
+      "gender": "male",
+      "age": 29,
+      "location": "Dallas",
+      "email": "michael.martinez@example.com",
+      "profession": "Financial Analyst"
+    },
+    {
+      "id": 42,
+      "name": "Isabella Hernandez",
+      "gender": "female",
+      "age": 23,
+      "location": "Phoenix",
+      "email": "isabella.hernandez@example.com",
+      "profession": "Web Developer"
+    },
+    {
+      "id": 43,
+      "name": "Alexander Lopez",
+      "gender": "male",
+      "age": 31,
+      "location": "Atlanta",
+      "email": "alexander.lopez@example.com",
+      "profession": "Data Analyst"
+    },
+    {
+      "id": 44,
+      "name": "Emma Martinez",
+      "gender": "female",
+      "age": 22,
+      "location": "New York",
+      "email": "emma.martinez@example.com",
+      "profession": "Graphic Designer"
+    },
+    {
+      "id": 45,
+      "name": "Noah Gonzalez",
+      "gender": "male",
+      "age": 26,
+      "location": "Los Angeles",
+      "email": "noah.gonzalez@example.com",
+      "profession": "Software Engineer"
+    },
+    {
+      "name": "Sujal Birari",
+      "age": "50",
+      "gender": "female",
+      "location": "pune",
+      "email": "sujalbirari@gmail.com",
+      "profession": "Ceo Bhandara Group",
+      "id": 46
+    },
+    {
+      "name": "Aakash",
+      "age": "20",
+      "gender": "male",
+      "location": "pune",
+      "email": "deshmaneakash100@gmail.com",
+      "profession": "software engineer",
+      "id": 47
+    },
+    {
+      "name": "mahesh kothawade",
+      "age": "20",
+      "gender": "male",
+      "location": "pune",
+      "email": "sujalbirari@gmail.com",
+      "profession": "traphic police",
+      "id": 48
+    },
+    {
+      "name": "Rohan Shinge",
+      "age": "20",
+      "gender": "male",
+      "location": "pimpri",
+      "email": "sujalbirari@gmail.com",
+      "profession": "Ceo Google India",
+      "id": 49
+    },
+    {
+      "name": "aakash deshmane",
+      "age": "20",
+      "gender": "male",
+      "location": "usa",
+      "email": "deshmaneakash100@gmail.com",
+      "profession": "software engineer",
+      "id": 50
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "deshmaneakash100@gmail.com",
+      "password": "akash@2000"
+    },
+    {
+      "email": "sujalbirari@gmail.com",
+      "password": "12345678",
+      "id": 2
+    },
+    {
+      "email": "maheshkothavade123@gmail.com",
+      "password": "Mahesh@6081",
+      "id": 3
+    },
+    {
+      "email": "user@gmail.com",
+      "password": "user",
+      "id": 4
+    }
+  ]
+}
