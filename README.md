@@ -1,7 +1,7 @@
 # Roommate-Finder
 # Simple Roommate Finder
 
-![App Screenshot](/screenshots/screenshot.png)
+
 
 ## Overview
 
