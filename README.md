@@ -14,7 +14,7 @@ To run this application locally, follow these steps:
 1. Clone this repository to your local machine.
 2. Open the `index.html` file in your web browser to use the app.
 
-## How to Use
+## How to Use 
 
 1. Enter your roommate preferences in the provided search filters.
 2. Click the search button to find potential roommates who match your criteria.
